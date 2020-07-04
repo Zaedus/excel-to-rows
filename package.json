@@ -1,0 +1,28 @@
+{
+  "name": "excel-to-rows",
+  "version": "1.0.0",
+  "description": "Parses a spreadsheet and returns the rows as objects.",
+  "main": "app.js",
+  "dependencies": {
+    "exceljs": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaedus/excel-to-rows.git"
+  },
+  "keywords": [
+    "excel",
+    "rows",
+    "exceljs"
+  ],
+  "author": "Zaedus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaedus/excel-to-rows/issues"
+  },
+  "homepage": "https://github.com/Zaedus/excel-to-rows#readme"
+}
