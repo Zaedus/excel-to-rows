@@ -71,7 +71,7 @@ function parseSpreadSheet(worksheet) {
     return rows;
 }
 /**
- * Parses a csv file or buffer.
+ * Parses a csv file or stream.
  */
 function fromCsv(arg) {
     return __awaiter(this, void 0, void 0, function () {
@@ -99,7 +99,7 @@ function fromCsv(arg) {
 }
 exports.fromCsv = fromCsv;
 /**
- * Parses an xlsx file or buffer.
+ * Parses an xlsx file or stream.
  */
 function fromXlsx(arg) {
     return __awaiter(this, void 0, void 0, function () {

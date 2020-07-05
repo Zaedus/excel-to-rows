@@ -31,7 +31,7 @@ function parseSpreadSheet(worksheet : Excel.Worksheet) {
 }
 
 /**
- * Parses a csv file or buffer.
+ * Parses a csv file or stream.
  */
 export async function fromCsv(arg: string | Stream) {
     let wb = new Excel.Workbook();
@@ -45,7 +45,7 @@ export async function fromCsv(arg: string | Stream) {
 }
 
 /**
- * Parses an xlsx file or buffer.
+ * Parses an xlsx file or stream.
  */
 export async function fromXlsx(arg: string | Stream) {
     let wb = new Excel.Workbook();
