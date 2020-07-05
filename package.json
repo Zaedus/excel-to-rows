@@ -4,6 +4,7 @@
   "description": "Parses a spreadsheet and returns the rows as objects.",
   "main": "app.js",
   "dependencies": {
+    "@types/node": "^14.0.14",
     "exceljs": "^4.1.0"
   },
   "devDependencies": {},
