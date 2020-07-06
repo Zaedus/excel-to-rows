@@ -9,7 +9,7 @@ function parseSpreadSheet(worksheet : Excel.Worksheet) {
     //@ts-ignore
     var columnHeaders = worksheet.getRow(1).values.filter(v => v);
 
-    for(let rowIndex = 2; rowIndex < worksheet.rowCount; rowIndex++) {
+    for(let rowIndex = 2; rowIndex < worksheet.rowCount + 1; rowIndex++) {
         
         var rowData = worksheet.getRow(rowIndex).values;
 

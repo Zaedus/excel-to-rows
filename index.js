@@ -56,7 +56,7 @@ function parseSpreadSheet(worksheet) {
     var rows = [];
     //@ts-ignore
     var columnHeaders = worksheet.getRow(1).values.filter(function (v) { return v; });
-    for (var rowIndex = 2; rowIndex < worksheet.rowCount; rowIndex++) {
+    for (var rowIndex = 2; rowIndex < worksheet.rowCount + 1; rowIndex++) {
         var rowData = worksheet.getRow(rowIndex).values;
         //@ts-ignore
         rowData.splice(0, 1);
