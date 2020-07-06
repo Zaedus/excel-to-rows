@@ -70,7 +70,7 @@ data.xlsx
 index.js
 
 ```js
-const excelToRows = require('./index');
+const excelToRows = require('excel-to-rows');
 
 (async function() {
     console.log(await excelToRows.from("./data.xlsx"));

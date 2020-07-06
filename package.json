@@ -1,6 +1,6 @@
 {
   "name": "excel-to-rows",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Parses a spreadsheet and returns the rows as objects.",
   "main": "app.js",
   "dependencies": {
