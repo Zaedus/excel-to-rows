@@ -78,7 +78,7 @@ const excelToRows = require('excel-to-rows');
 ```
 
 Output: 
-```json
+```
 [
   {
     ID: 0,
